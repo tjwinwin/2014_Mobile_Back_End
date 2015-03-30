@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<serverLsit>
+    <server name = "server1">
+        <handler header = "0x5001">com.company.StreamSayHelloEventHandler</handler>
+        <handler header = "0x6001">com.company.StreamUpdateProfileEventHandler</handler>
+    </server>
+    <server name = "server2">
+        <handler header = "0x5001">com.company.StreamSayHelloEventHandler</handler>
+        <handler header = "0x6001">com.company.StreamUpdateProfileEventHandler</handler>
+    </server>
+</serverLsit>
